@@ -7,7 +7,7 @@ Hadoop Samples to Introduce Map Reduce Patterns
 
   + Summarization Patterns
     +  [Max Temperature](../../../hadoop-samples/tree/master/java/hadoop-max-example/readme.md)
-    +  [Median Termperature]()
+    +  [Median Termperature](../../../hadoop-samples/tree/master/java/hadoop-median-example/readme.md)
 
  
 
