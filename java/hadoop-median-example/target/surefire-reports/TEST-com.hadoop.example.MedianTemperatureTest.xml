@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="1.79" errors="0" skipped="0" tests="2" name="com.hadoop.example.MedianTemperatureTest">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/i386"/>
+    <property name="java.vm.version" value="23.7-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/vmware/work/hadoop-samples/hadoop-median-example"/>
+    <property name="java.runtime.version" value="1.7.0_15-b20"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="basedir" value="/home/vmware/work/hadoop-samples/hadoop-median-example"/>
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter8158567381054664650.jar"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/i386:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="surefire.test.class.path" value="/home/vmware/work/hadoop-samples/hadoop-median-example/target/test-classes:/home/vmware/work/hadoop-samples/hadoop-median-example/target/classes:/home/vmware/.m2/repository/junit/junit/4.4/junit-4.4.jar:/home/vmware/.m2/repository/org/apache/hadoop/hadoop-core/1.1.1/hadoop-core-1.1.1.jar:/home/vmware/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/home/vmware/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/home/vmware/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/home/vmware/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/home/vmware/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/home/vmware/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/home/vmware/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/home/vmware/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/vmware/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/vmware/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/vmware/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/vmware/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/home/vmware/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/home/vmware/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/vmware/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/home/vmware/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/home/vmware/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/home/vmware/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar:/home/vmware/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/home/vmware/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar:/home/vmware/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/home/vmware/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/vmware/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/home/vmware/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/home/vmware/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar:/home/vmware/.m2/repository/org/apache/mrunit/mrunit/0.9.0-incubating/mrunit-0.9.0-incubating-hadoop1.jar:/home/vmware/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/vmware/.m2/repository/log4j/log4j/1.2.15/log4j-1.2.15.jar:/home/vmware/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="3.5.0-17-generic"/>
+    <property name="user.home" value="/home/vmware"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.name" value="vmware"/>
+    <property name="java.class.path" value="/home/vmware/work/hadoop-samples/hadoop-median-example/target/test-classes:/home/vmware/work/hadoop-samples/hadoop-median-example/target/classes:/home/vmware/.m2/repository/junit/junit/4.4/junit-4.4.jar:/home/vmware/.m2/repository/org/apache/hadoop/hadoop-core/1.1.1/hadoop-core-1.1.1.jar:/home/vmware/.m2/repository/commons-cli/commons-cli/1.2/commons-cli-1.2.jar:/home/vmware/.m2/repository/xmlenc/xmlenc/0.52/xmlenc-0.52.jar:/home/vmware/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/home/vmware/.m2/repository/commons-httpclient/commons-httpclient/3.0.1/commons-httpclient-3.0.1.jar:/home/vmware/.m2/repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar:/home/vmware/.m2/repository/org/apache/commons/commons-math/2.1/commons-math-2.1.jar:/home/vmware/.m2/repository/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar:/home/vmware/.m2/repository/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar:/home/vmware/.m2/repository/commons-lang/commons-lang/2.4/commons-lang-2.4.jar:/home/vmware/.m2/repository/commons-digester/commons-digester/1.8/commons-digester-1.8.jar:/home/vmware/.m2/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar:/home/vmware/.m2/repository/commons-beanutils/commons-beanutils-core/1.8.0/commons-beanutils-core-1.8.0.jar:/home/vmware/.m2/repository/commons-net/commons-net/1.4.1/commons-net-1.4.1.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar:/home/vmware/.m2/repository/org/mortbay/jetty/servlet-api/2.5-20081211/servlet-api-2.5-20081211.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar:/home/vmware/.m2/repository/tomcat/jasper-runtime/5.5.12/jasper-runtime-5.5.12.jar:/home/vmware/.m2/repository/tomcat/jasper-compiler/5.5.12/jasper-compiler-5.5.12.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jsp-api-2.1/6.1.14/jsp-api-2.1-6.1.14.jar:/home/vmware/.m2/repository/org/mortbay/jetty/servlet-api-2.5/6.1.14/servlet-api-2.5-6.1.14.jar:/home/vmware/.m2/repository/org/mortbay/jetty/jsp-2.1/6.1.14/jsp-2.1-6.1.14.jar:/home/vmware/.m2/repository/ant/ant/1.6.5/ant-1.6.5.jar:/home/vmware/.m2/repository/commons-el/commons-el/1.0/commons-el-1.0.jar:/home/vmware/.m2/repository/net/java/dev/jets3t/jets3t/0.6.1/jets3t-0.6.1.jar:/home/vmware/.m2/repository/hsqldb/hsqldb/1.8.0.10/hsqldb-1.8.0.10.jar:/home/vmware/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/vmware/.m2/repository/org/eclipse/jdt/core/3.1.1/core-3.1.1.jar:/home/vmware/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.8.8/jackson-mapper-asl-1.8.8.jar:/home/vmware/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.8.8/jackson-core-asl-1.8.8.jar:/home/vmware/.m2/repository/org/apache/mrunit/mrunit/0.9.0-incubating/mrunit-0.9.0-incubating-hadoop1.jar:/home/vmware/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/vmware/.m2/repository/log4j/log4j/1.2.15/log4j-1.2.15.jar:/home/vmware/.m2/repository/org/mockito/mockito-all/1.8.5/mockito-all-1.8.5.jar:"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-i386/jre"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter8158567381054664650.jar /tmp/surefire5065900427963046963tmp /tmp/surefire4666668225113102864tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0_15"/>
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-i386/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-i386/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="/home/vmware/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.868" classname="com.hadoop.example.MedianTemperatureTest" name="testMapper"/>
+  <testcase time="0.635" classname="com.hadoop.example.MedianTemperatureTest" name="testReducer"/>
+</testsuite>
