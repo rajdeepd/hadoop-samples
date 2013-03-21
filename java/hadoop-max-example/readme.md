@@ -13,7 +13,7 @@ This sample uses the MapReduce API to find the Max temperature from an Input fil
 
 ## Copy Input File into HDFS
 	
-	bin/hadoop fs -copyFromLocal ../hadoop-samples/myinput/sample2.txt /user/vmware/myinput/sample2.txt
+	bin/hadoop fs -copyFromLocal ../hadoop-samples/myinput/sample-max.txt /user/vmware/myinput/sample-max.txt
 
 ## Execute the MapReduce Job
 	
@@ -27,9 +27,9 @@ This sample uses the MapReduce API to find the Max temperature from an Input fil
 	
 ## Output from the MapReduce Task
    
-   $ cat output/max/part-r-00000 
-   1990	24
-   1991	27
+        $ cat output/max/part-r-00000 
+        1990	24
+        1991	27
    
    
   

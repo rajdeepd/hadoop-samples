@@ -11,7 +11,8 @@ import org.apache.hadoop.mapreduce.Job;
 
 public class MaxTemperature {
 
-  public static void main(String[] args) throws IOException, ClassNotFoundException, InterruptedException {
+  public static void main(String[] args) 
+		  throws IOException, ClassNotFoundException, InterruptedException {
     if (args.length != 2) {
       System.err.println("Usage: MaxTemperature <input path> <output path>");
       System.exit(-1);

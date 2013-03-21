@@ -1,13 +1,14 @@
-hadoop-samples
-==============
+Hadoop Samples for Design Patterns
+==================================
 
 Hadoop Samples to Introduce Map Reduce Patterns
 
 ##Java
 
   + Summarization Patterns
-    +  [Max Temperature](../../../hadoop-samples/tree/master/java/hadoop-max-example/readme.md)
-    +  [Median Termperature](../../../hadoop-samples/tree/master/java/hadoop-median-example/readme.md)
+    +  [Max using Reduce](../../../hadoop-samples/tree/master/java/hadoop-max-example/readme.md)
+    +  [Median using Reduce](../../../hadoop-samples/tree/master/java/hadoop-median-example/readme.md)
+    +  [Inverted Index](../../../hadoop-samples/tree/master/java/inverted-index-example/readme.md)
 
  
 
