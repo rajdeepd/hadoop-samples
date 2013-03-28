@@ -1,0 +1,7 @@
+10/11/2012,r..@yahoo.com,3,I was really satisfied with the customer service at the store
+09/12/2012,x..@yahoo.com,3,Basic needs met at the store
+10/11/2012,r.@gmail.com,4,Excellent
+09/12/2012,x..@hotmail.com,5,Great Collection
+01/02/2013,dan...@xyz.com,1,Horrible service at the store
+09/12/2012,zz..@hotmail.com,5,Great Collection
+01/02/2013,d...@gmail.com,4,Good collection and service at the store
