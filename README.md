@@ -11,3 +11,5 @@ Hadoop Samples to Introduce Map Reduce Patterns
     +  [Inverted Index](../../../hadoop-samples/tree/master/java/inverted-index-example/readme.md)
     +  [Count with Counter](../../../hadoop-samples/tree/master/java/count-with-counters-example/readme.md)
 
+  + Filtering Patterns
+    +  [Simplem Filtering](../../../hadoop-samples/tree/master/java/filter-mapper-example/readme.md)

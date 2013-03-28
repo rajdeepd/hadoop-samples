@@ -13,9 +13,8 @@ This sample uses the MapReduce API to count the number of words using the Count 
 
 ## Execute the MapReduce Job
 	
-	bin/hadoop jar ../hadoop-samples/java/inverted-index-example/target/count-with-counter-example-1.0.jar \
-          com.hadoop.example.WordCountJob  /user/vmware/myinput/sample-counter.txt  /user/vmware/output/counter
-
+	bin/hadoop jar ../hadoop-samples/java/count-with-counters-example/target/count-with-counters-example-1.0.jar com.hadoop.example.WordCountJob  /user/vmware/myinput/sample-counter.txt  /user/vmware/output/counter
+	
 ## Copy Output to Local File System  
 
 	bin/hadoop fs -copyToLocal /user/vmware/output/counter output/counter
