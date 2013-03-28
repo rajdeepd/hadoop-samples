@@ -12,4 +12,4 @@ Hadoop Samples to Introduce Map Reduce Patterns
     +  [Count with Counter](../../../hadoop-samples/tree/master/java/count-with-counters-example/readme.md)
 
   + Filtering Patterns
-    +  [Simplem Filtering](../../../hadoop-samples/tree/master/java/filter-mapper-example/readme.md)
+    +  [Simple Filtering](../../../hadoop-samples/tree/master/java/filter-mapper-example/readme.md)
