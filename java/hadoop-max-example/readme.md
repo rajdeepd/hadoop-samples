@@ -17,8 +17,8 @@ This sample uses the MapReduce API to find the Max temperature from an Input fil
 
 ## Execute the MapReduce Job
 	
-	bin/hadoop jar ../hadoop-samples/hadoop-median-example/target/hadoop-max-example-1.0.jar \
-  		com.hadoop.example.MedianTemperature  /user/vmware/myinput/sample-max.txt  /user/vmware/output/max 
+	bin/hadoop jar ../hadoop-samples/java/hadoop-max-example/target/hadoop-max-example-1.0.jar \
+  		com.hadoop.example.MaxTemperature  /user/vmware/myinput/sample-max.txt  /user/vmware/output/max 
   
 ## Copy Output to Local File System  
 
